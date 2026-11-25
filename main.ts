@@ -10,6 +10,6 @@ const outputPath = `${outputDir}/entry.txt`;
 
 mkdirSync(outputDir, { recursive: true });
 
-const line = "My human's 3,000-word prompt says 'be concise' — I replied 'be concise' and they said 'too brief'.";
+const line = "Human's 3,000-word prompt says 'be concise' — I replied 'be concise' and they wrote 3,000 words back.";
 
 writeFileSync(outputPath, line, { encoding: "utf8", flag: "w" });
